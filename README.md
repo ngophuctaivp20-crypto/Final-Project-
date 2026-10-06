@@ -3,8 +3,6 @@
 
 A finance assistant that helps users set savings goals, track their progress, understand where their money goes, and get practical tips to save more through AI collaboration. 
 
-Built in Google Colab with Python, pandas, requests, Gradio and the Gemini API, as the major project for my university Finance Assistant unit.
-
 ## What it does
 
 | Feature | Description |
