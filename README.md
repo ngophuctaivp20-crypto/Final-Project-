@@ -6,7 +6,7 @@ A finance assistant that helps users set savings goals, track their progress, un
 
 ## Project overview
 
-Everything is in **one notebook**, `savings_goal_coach_basic_v4.ipynb`. It has 9 code cells, each under a heading. Cells 2–7 only create functions, so they print nothing (except a short message about the Gemini key in cell 2). The tests and the app are separate cells at the end.
+Everything is in **one notebook**, `Saving Goal Coach Final Project`. It has 9 code cells, each under a heading. Cells 2–7 only create functions, so they print nothing (except a short message about the Gemini key in cell 2). The tests and the app are separate cells at the end.
 
 | Cell | Heading in the notebook | What it does |
 |---|---|---|
@@ -25,7 +25,7 @@ Everything is in **one notebook**, `savings_goal_coach_basic_v4.ipynb`. It has 9
 ## How to run it
 
 **Quick way:**
-1. Open 'Saving Goal Coach Final Project' in Google Colab (or click the "Open in Colab" button at the top).
+1. Open `Saving Goal Coach Final Project` in Google Colab (or click the "Open in Colab" button at the top).
 2. *(Optional, for the Gemini chat)* Add your key in Colab's 🔑 **Secrets** panel with the name `GEMINI_API_KEY`, and turn on notebook access.
 3. Click **Runtime → Run all**.
 4. Scroll to the bottom, to the cell under **8. Gradio app**. The app appears there. You can also click the public link it prints to open the app in a new tab.
