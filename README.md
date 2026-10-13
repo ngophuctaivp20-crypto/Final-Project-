@@ -3,6 +3,51 @@
 
 A finance assistant that helps users set savings goals, track their progress, understand where their money goes, and get practical tips to save more through AI collaboration. 
 
+
+## Project overview
+
+Everything is in **one notebook**, `savings_goal_coach_basic_v4.ipynb`. It has 9 code cells, each under a heading. Cells 2–7 only create functions, so they print nothing (except a short message about the Gemini key in cell 2). The tests and the app are separate cells at the end.
+
+| Cell | Heading in the notebook | What it does |
+|---|---|---|
+| 1 | *-Pips-Gradio Pandas requests-* | Installs the libraries: `gradio`, `pandas`, `requests` |
+| 2 | **1. Imports and settings** | Imports libraries, sets the website addresses and category tips, reads the Gemini key |
+| 3 | **2. My custom tool: the savings-goal calculator** | `savings_goal_calculator` and the optional text calculator |
+| 4 | **3. Goals (nested dictionaries)** | Functions to add goals, add money, and show progress |
+| 5 | **4. pandas: reading the CSV** | Loads the CSV, works out income, spending and savings tips |
+| 6 | **5. `requests`: currency converter and Gemini chat with custom tools** | Currency converter, the custom tools, Gemini chat, offline coach |
+| 7 | **6. Sample data** | Function that creates `sample_transactions.csv` |
+| 8 | **7. Tests with `assert`** | Runs all the tests and prints `✅ All tests passed` |
+| 9 | **8. Gradio app** | Builds the interface and **starts the app** |
+
+---
+
+## How to run it
+
+**Quick way:**
+1. Open `savings_goal_coach_basic_v4.ipynb` in Google Colab (or click the "Open in Colab" button at the top).
+2. *(Optional, for the Gemini chat)* Add your key in Colab's 🔑 **Secrets** panel with the name `GEMINI_API_KEY`, and turn on notebook access.
+3. Click **Runtime → Run all**.
+4. Scroll to the bottom, to the cell under **8. Gradio app**. The app appears there. You can also click the public link it prints to open the app in a new tab.
+
+**Step by step (if you want to run the cells one at a time):**
+1. Run **cell 1** (under the title) to install the libraries. You only need to do this once per Colab session.
+2. Run the cells under headings **1** to **6**, in order. Each cell uses functions from the cells above it, so the order matters.
+3. Run the cell under **7. Tests with `assert`**. It should print `✅ All tests passed`. *(Optional, but it checks everything works.)*
+4. Run the cell under **8. Gradio app** to start the application.
+
+**Using the app:**
+- **Goals** tab: add a goal, then add money to it.
+- **Calculator** tab: enter a goal amount, the money already saved and the months.
+- **Spending** tab: click **Use sample data**, or upload `student_transactions.csv` from your computer and click **Load my CSV**.
+- **Currency** tab: enter an amount and two currency codes, e.g. USD and AUD.
+- **Coach** tab: ask a question, e.g. "How are my goals going?" Without a Gemini key it uses the offline coach.
+
+**Good to know:**
+- The last cell keeps showing **"Executing"** while the app is open. This is normal. Click ■ to stop the app.
+- To change the code, stop the app, edit the cell, then run that cell and the **8. Gradio app** cell again.
+- *(Optional)* To try the text calculator, remove the `#` before `run_calculator()` at the end of cell 3 and run that cell.
+
 ## What it does
 
 | Feature | Description |
