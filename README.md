@@ -25,7 +25,7 @@ Everything is in **one notebook**, `savings_goal_coach_basic_v4.ipynb`. It has 9
 ## How to run it
 
 **Quick way:**
-1. Open `savings_goal_coach_basic_v4.ipynb` in Google Colab (or click the "Open in Colab" button at the top).
+1. Open 'Saving Goal Coach Final Project' in Google Colab (or click the "Open in Colab" button at the top).
 2. *(Optional, for the Gemini chat)* Add your key in Colab's 🔑 **Secrets** panel with the name `GEMINI_API_KEY`, and turn on notebook access.
 3. Click **Runtime → Run all**.
 4. Scroll to the bottom, to the cell under **8. Gradio app**. The app appears there. You can also click the public link it prints to open the app in a new tab.
