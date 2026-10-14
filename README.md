@@ -142,22 +142,6 @@ You need to save $300 a month (about $69 a week) to reach your $3000 goal in 8 m
 Laptop: 5.0% done, Started, save $190.00 a month
 ```
 
-### 6. Text calculator (optional)
-
-Remove the `#` in front of `run_calculator()` in section 2 of the notebook and run that cell:
-```
-1 - How much should I save each month?
-2 - How many months will it take?
-Choose 1 or 2 (q to quit): 2
-Target amount: 1000
-Already saved: 0
-Amount saved each month: 250
-It will take 4 months.
-Choose 1 or 2 (q to quit): q
-Bye!
-```
-
----
 ## Python features used
 
 - Variables, `if` / `elif` / `else`, `and`, `or`, `in`, `not in`
