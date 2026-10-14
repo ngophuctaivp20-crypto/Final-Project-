@@ -61,7 +61,7 @@ Everything is in **one notebook**, `Saving Goal Coach Final Project`. It has 9 c
 | `student_transactions.csv` | More realistic test data: 67 transactions over 3 months |
 | `README.md` | This file |
 |`Developer's Diary`|showing the learning progress of each coding concept
-
+|`my_transactions.csv`|transaction data and income|
 ## Sample input and output
 
 ### 1. Calculator tab (my custom tool)
