@@ -27,14 +27,9 @@ Everything is in **one notebook**, `Saving Goal Coach Final Project`. It has 9 c
 **Quick way:**
 1. Open `Saving Goal Coach Final Project` in Google Colab (or click the "Open in Colab" button at the top).
 2. *(Optional, for the Gemini chat)* Add your key in Colab's 🔑 **Secrets** panel with the name `GEMINI_API_KEY`, and turn on notebook access.
-3. Click **Runtime → Run all**.
-4. Scroll to the bottom, to the cell under **8. Gradio app**. The app appears there. You can also click the public link it prints to open the app in a new tab.
-
-**Step by step (if you want to run the cells one at a time):**
-1. Run **cell 1** (under the title) to install the libraries. You only need to do this once per Colab session.
-2. Run the cells under headings **1** to **6**, in order. Each cell uses functions from the cells above it, so the order matters.
-3. Run the cell under **7. Tests with `assert`**. It should print `✅ All tests passed`. *(Optional, but it checks everything works.)*
-4. Run the cell under **8. Gradio app** to start the application.
+3. Run **cell 1** (under the title) to install the libraries. You only need to do this once per Colab session.
+4. Run the cells under headings **1** to **8**, in order. Each cell uses functions from the cells above it, so the order matters.
+5. Gradio app** will appear at cell 8 to start the application.
 
 **Using the app:**
 - **Goals** tab: add a goal, then add money to it.
