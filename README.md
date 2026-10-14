@@ -41,7 +41,6 @@ Everything is in **one notebook**, `Saving Goal Coach Final Project`. It has 9 c
 **Good to know:**
 - The last cell keeps showing **"Executing"** while the app is open. This is normal. Click ■ to stop the app.
 - To change the code, stop the app, edit the cell, then run that cell and the **8. Gradio app** cell again.
-- *(Optional)* To try the text calculator, remove the `#` before `run_calculator()` at the end of cell 3 and run that cell.
 
 ## What it does
 
