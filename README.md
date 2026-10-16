@@ -12,7 +12,7 @@ Everything is in **one notebook**, `Saving Goal Coach Final Project`. It has 9 c
 |---|---|---|
 | 1 | *-Pips-Gradio Pandas requests-* | Installs the libraries: `gradio`, `pandas`, `requests` |
 | 2 | **1. Imports and settings** | Imports libraries, sets the website addresses and category tips, reads the Gemini key |
-| 3 | **2. My custom tool: the savings-goal calculator** | `savings_goal_calculator` and the optional text calculator |
+| 3 | **2. My custom tool: the savings-goal calculator** | `savings_goal_calculator`|
 | 4 | **3. Goals (nested dictionaries)** | Functions to add goals, add money, and show progress |
 | 5 | **4. pandas: reading the CSV** | Loads the CSV, works out income, spending and savings tips |
 | 6 | **5. `requests`: currency converter and Gemini chat with custom tools** | Currency converter, the custom tools, Gemini chat, offline coach |
