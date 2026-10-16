@@ -34,7 +34,7 @@ Everything is in **one notebook**, `Saving Goal Coach Final Project`. It has 9 c
 **Using the app:**
 - **Goals** tab: add a goal, then add money to it.
 - **Calculator** tab: enter a goal amount, the money already saved and the months.
-- **Spending** tab: click **Use sample data**, or upload `student_transactions.csv` from your computer and click **Load my CSV**.
+- **Spending** tab: click **Use sample data**, or download `student_transactions.csv`, `my_transactions.csv`, `transactions sample` from the Final Project file, and click **Load my CSV**.
 - **Currency** tab: enter an amount and two currency codes, e.g. USD and AUD.
 - **Coach** tab: ask a question, e.g. "How are my goals going?" Without a Gemini key it uses the offline coach.
 
