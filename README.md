@@ -150,23 +150,6 @@ The coach remembers the conversation, so you can ask follow-up questions like *"
 Laptop: 5.0% done, Started, save $190.00 a month
 ```
 
-### 6. Text calculator (optional)
-
-Remove the `#` in front of `run_calculator()` at the end of Section 2 and run that cell:
-```
-Press Enter to calculate, or type q to quit:
-Target amount: 2000
-Already saved: abc
-Please type a number.
-Already saved: 500
-Number of months: 6
-You still need $1500.00 (25.0% done).
-Save $250.00 a month, which is about $57.69 a week.
-Press Enter to calculate, or type q to quit: q
-Bye!
-```
-
----
 ## Python features used
 
 - Variables, `if` / `elif` / `else`, `and`, `or`, `in`, `not in`
