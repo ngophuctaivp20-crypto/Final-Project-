@@ -64,6 +64,8 @@ Everything is in **one notebook**, `Saving Goal Coach Final Project`. It has 9 c
 |`my_transactions.csv`|transaction data and income|
 ## Sample input and output
 
+All these outputs come from running the app, except the currency rate (live, changes daily) and Gemini's wording (changes each time).
+
 ### 1. Calculator tab (my custom tool)
 
 **Input:**
@@ -93,12 +95,14 @@ Added Laptop. Save $190.00 each month.
 
 ### 3. Spending tab
 
-**Input:** click **Use sample data** (or upload `sample_transactions.csv`)
+**Input:** click **Use sample data** (or upload `sample_transactions.csv`), after adding the Laptop goal above
 
 **Output:**
 ```
 Loaded 21 transactions.
 
+Income each month: $2300.00
+Spending each month: $1514.00
 Money left over each month: $786.00
 Your goals need: $190.00 a month
 Good news: you can afford your goals!
@@ -137,11 +141,32 @@ Tool used: calculate_plan -> {'remaining': 2400.0, 'per_month': 300.0, 'per_week
 You need to save $300 a month (about $69 a week) to reach your $3000 goal in 8 months. You're already 20% of the way there!
 ```
 
-**Offline mode** (no API key), input `How are my goals?`:
+The coach remembers the conversation, so you can ask follow-up questions like *"What if I had 10 months instead?"*
+
+**Offline mode** (no Gemini key), input `How are my goals?`:
 ```
+⚠️ No Gemini key found, so I'm in offline mode.
+
 Laptop: 5.0% done, Started, save $190.00 a month
 ```
 
+### 6. Text calculator (optional)
+
+Remove the `#` in front of `run_calculator()` at the end of Section 2 and run that cell:
+```
+Press Enter to calculate, or type q to quit:
+Target amount: 2000
+Already saved: abc
+Please type a number.
+Already saved: 500
+Number of months: 6
+You still need $1500.00 (25.0% done).
+Save $250.00 a month, which is about $57.69 a week.
+Press Enter to calculate, or type q to quit: q
+Bye!
+```
+
+---
 ## Python features used
 
 - Variables, `if` / `elif` / `else`, `and`, `or`, `in`, `not in`
